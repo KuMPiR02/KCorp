@@ -1,0 +1,674 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  font-family: "Kufam", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/main\ bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  display: flex;
+  height: 6vw;
+  margin-top: 1vw;
+}
+header img {
+  margin-left: 3vw;
+  width: 5vw;
+  height: 4.46vw;
+}
+nav ul {
+  margin-top: 2vw;
+  display: flex;
+  gap: 5vw;
+  margin-left: 25vw;
+}
+nav ul a {
+  font-weight: 900;
+  font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+  transition: 150ms;
+}
+nav ul a:hover {
+  padding-bottom: 0.2vw;
+  border-bottom: 0.2vw solid white;
+}
+.main {
+  height: 45vw;
+  background-size: cover;
+}
+.main h1 {
+  font-size: 5vw;
+  color: white;
+  margin-top: 10vw;
+}
+.main p {
+  font-size: 1.5vw;
+  color: white;
+}
+.main_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Karmin_Corp {
+  background-color: #071120da;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vw;
+  border-radius: 24px;
+  height: 38vw;
+  border: 0.3vw solid rgba(255, 255, 255, 0.75);
+}
+.Karmin_Corp h1 {
+  color: white;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vw;
+}
+.Karmin_Corp_text_box {
+  align-items: center;
+  gap: 3vw;
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+}
+.Karmin_Corp_text {
+  color: white;
+  font-size: 2svw;
+  font-weight: 700;
+  width: 58vw;
+}
+.Karmin_Corp_img {
+  width: 17vw;
+}
+
+.fn_team {
+  background-color: #071120da;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 24px;
+  height: 50vw;
+  border: 0.3vw solid rgba(255, 255, 255, 0.75);
+}
+.fn_team h1 {
+  color: white;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 4vw;
+  padding-bottom: 2vw;
+}
+.profile {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8vw;
+}
+.fn_team_con {
+  display: flex;
+  background-color: #00000050;
+  border-radius: 20px;
+}
+.profile p {
+  font-size: 1.4vw;
+  color: white;
+  font-weight: bold;
+  width: 28vw;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.veno_img h2 {
+  font-size: 4vw;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+.veno_img {
+  width: 21.7vw;
+}
+.fn_team_btn a {
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  width: 18vw;
+  padding: 0.7vw 0;
+  background-color: white;
+  cursor: pointer;
+  transition: 300ms;
+  color: black;
+  text-decoration: none;
+  border: 0.2vw solid white;
+}
+.fn_team_btn a:hover {
+  color: white;
+  border-radius: 0.7vw;
+  font-weight: bold;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  width: 18vw;
+  padding: 0.7vw 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+.carousel-button {
+  background-color: #2339744f;
+  border: 0.2vw solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+  font-weight: bold;
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 300ms;
+}
+.strelka {
+  width: 2vw;
+}
+.carousel-button:hover {
+  background-color: #1d264d;
+  border: 0.2vw solid white;
+  border-radius: 50%;
+  font-weight: bold;
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.fn_team_box {
+  display: flex;
+  padding: 2vw;
+  background-color: #2339744f;
+  border-radius: 1.5vw;
+}
+.tournaments {
+  border: 0.3vw solid rgba(255, 255, 255, 0.75);
+  background-color: #071120da;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 24px;
+  height: 60vw;
+  transition: 400ms;
+}
+.player_results_con {
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  margin-top: 2vw;
+}
+.tournaments h1 {
+  color: white;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+}
+.tournaments h2 {
+  color: white;
+  font-size: 2.5vw;
+  display: flex;
+  margin-left: 6vw;
+}
+.placment {
+  padding: 0.5vw 1.5vw;
+  background-color: #c2c2c2;
+  font-size: 2.5vw;
+  font-weight: 800;
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tournament {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffffff;
+  font-size: 2vw;
+  font-weight: 900;
+  width: 42vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.players {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffffff;
+  font-size: 2vw;
+  font-weight: 900;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+}
+.earnings {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffffff;
+  font-size: 2vw;
+  font-weight: 900;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.placment1 {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffe500;
+  font-size: 2.5vw;
+  font-weight: 800;
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.placment2 {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffffff;
+  font-size: 2.5vw;
+  font-weight: 800;
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tournament1 {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffffff;
+  font-size: 2vw;
+  font-weight: 900;
+  width: 42vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.players1 {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffffff;
+  font-size: 2vw;
+  font-weight: 900;
+  width: 15vw;
+  display: flex;
+  align-items: center;
+}
+.earnings1 {
+  padding: 0.5vw 1.5vw;
+  background-color: #ffffff;
+  font-size: 2vw;
+  font-weight: 900;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tournaments_btn {
+  padding: 0.7vw 3.5vw;
+  font-size: 1.8vw;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 1.5vw;
+  transition: 400ms;
+  border: 0.2vw solid white;
+  cursor: pointer;
+}
+.btn_box {
+  margin-top: 4vw;
+  display: flex;
+  justify-content: center;
+}
+.strelka_trn {
+  width: 1.5vw;
+}
+.tournaments_btn:hover {
+  padding: 0.7vw 3.5vw;
+  font-size: 1.8vw;
+  border: 0.2vw solid rgb(0, 0, 0);
+  background-color: #00000000;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 1.5vw;
+  filter: invert(1);
+}
+.tournaments_btn_box {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+.tournaments.expanded {
+  height: 75vw;
+}
+.partners {
+  border: 0.3vw solid rgba(255, 255, 255, 0.75);
+  background-color: #071120da;
+  border-radius: 24px;
+  height: 90vw;
+}
+.partners h1 {
+  color: white;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 4vw;
+  padding-bottom: 2vw;
+}
+.partners_con {
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+  justify-content: center;
+  margin-bottom: 5vw;
+}
+.partners_box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2vw;
+}
+.partners_box p {
+  width: 30vw;
+  font-size: 1.2vw;
+  color: white;
+  font-weight: 700;
+}
+.partners_box h2 {
+  width: 30vw;
+  font-size: 3vw;
+  color: white;
+  font-weight: 700;
+}
+.partners_btn {
+  padding: 0.7vw 3.5vw;
+  font-size: 1.8vw;
+  border: 0.2vw solid white;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 1.5vw;
+  transition: 400ms;
+  cursor: pointer;
+}
+.partners_btn:hover {
+  padding: 0.7vw 3.5vw;
+  font-size: 1.8vw;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  color: #192436;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 1.5vw;
+}
+.partners_btn_box {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+}
+.line_con {
+  display: flex;
+  justify-content: center;
+  margin: 5vw;
+}
+.partners_img {
+  width: 30vw;
+}
+img {
+  width: 100%;
+}
+.strelka_trn {
+  width: 1.5vw;
+}
+.applications {
+  border: 0.3vw solid rgba(255, 255, 255, 0.75);
+  background-color: #071120da;
+  border-radius: 24px;
+  height: 42vw;
+}
+.applications_title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.applications_h1 {
+  color: white;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 4vw;
+  padding-bottom: 1vw;
+}
+.applications_h2 {
+  color: white;
+  margin-bottom: 2vw;
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/form_bg.png);
+  background-size: cover;
+  padding: 2vw;
+  border-radius: 10px;
+  width: 50vw;
+  height: 25vw;
+  margin: auto;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1vw;
+  font-size: 1.5vw;
+}
+
+input[type="text"] {
+  width: 30vw;
+  height: 3vw;
+  padding: 1vw;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4vw;
+  margin-bottom: 3vw;
+}
+
+select {
+  cursor: pointer;
+  padding-left: 1vw;
+  width: 30vw;
+  height: 3vw;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4vw;
+  appearance: none;
+  background-image: url(../img/стрелка\ 3.png);
+  background-repeat: no-repeat;
+  background-position: 27vw;
+  background-size: 1.7vw;
+}
+.send_button {
+  padding: 0.3vw 3vw;
+  font-size: 1.7vw;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 0.7vw;
+  transition: 400ms;
+  border: 0.2vw solid white;
+  cursor: pointer;
+}
+.send_button:hover {
+  padding: 0.3vw 3vw;
+  background-color: #00000000;
+  font-size: 1.7vw;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 0.7vw;
+  border: 0.2vw solid white;
+}
+.send-button_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+}
+.send-button:hover {
+  background-color: #ddd;
+}
+input[type="email"] {
+  width: 30vw;
+  height: 4vw;
+  padding: 1vw;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.7vw;
+  font-size: 1.4vw;
+  margin-bottom: 3vw;
+}
+.email_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2.5vw;
+}
+.newsletter_h1 {
+  color: white;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 4vw;
+}
+.newsletter_h2 {
+  color: white;
+  margin-bottom: 1vw;
+  font-size: 1.3vw;
+  display: flex;
+  justify-content: center;
+}
+.newsletter {
+  border: 0.3vw solid rgba(255, 255, 255, 0.75);
+  background-color: #071120da;
+  border-radius: 24px;
+  height: 22vw;
+}
+section {
+  margin: 3vw 5vw;
+}
+footer {
+  border: 0.3vw solid rgba(255, 255, 255, 0.75);
+  background-color: #071120da;
+  border-radius: 24px;
+  height: 5vw;
+  margin: 3vw 5vw;
+}
+footer p {
+  font-size: 1.4vw;
+  color: white;
+  font-weight: 700;
+}
+.footer_text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.fn_team_con {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.btn {
+  cursor: pointer;
+}
+.carousel {
+  position: relative;
+  max-width: 68vw;
+  margin: auto;
+  overflow: hidden;
+}
+.carousel-inner {
+  display: flex;
+  transition: transform 0.7s ease-in-out;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.carousel-button img {
+  width: 2vw;
+}
+section {
+  margin-top: 5vw;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  border: 0.2vw solid #ffffff;
+  padding: 40px;
+  background-color: #072246;
+  border-radius: 20px;
+}
+
+.popup-content {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: rgb(255, 255, 255);
+}
